@@ -57,6 +57,11 @@ body {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+.infos a:hover {
+  color: var(--hover-color);
+  transition: 0.3s ease-in-out;
+}
+
 .social ul {
   display: flex;
   justify-content: flex-end;
@@ -71,6 +76,12 @@ body {
   color: #fff;
   border: 1px solid #fff;
   border-radius: 50%;
+}
+
+.social i:hover {
+  border: 1px solid var(--hover-color);
+  color: var(--hover-color);
+  transition: 0.3s ease-in-out;
 }
 
 @media (max-width: 768px) {
