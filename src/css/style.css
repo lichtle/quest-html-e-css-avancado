@@ -6,13 +6,14 @@ html {
 }
 
 body {
-  background: url("../images/bg-desktop.svg") var(--bg-color) no-repeat;
-  background-size: cover;
   font-size: 1.6rem;
+  background: var(--bg-color) url("../images/bg-desktop.svg") no-repeat center;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 .header .logo {
-  margin: 50px 0 55px 70px;
+  margin: 5rem 0 5.5rem 7rem;
 }
 
 .main {
@@ -21,16 +22,16 @@ body {
 }
 
 .main .illustration {
-  width: 700px;
-  margin-left: 50px;
+  width: 70rem;
+  margin-left: 5rem;
 }
 
 .main .infos {
   color: #fff;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  padding: 60px;
+  gap: 2rem;
+  padding: 6rem;
 }
 
 .main .infos h1 {
@@ -46,48 +47,54 @@ body {
 }
 
 .main .infos a {
-  width: 170px;
-  padding: 12px 0;
-  border-radius: 25px;
-  text-align: center;
   background-color: #fff;
   color: var(--bg-color);
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-}
-
-.infos a:hover {
-  color: var(--hover-color);
-  transition: 0.3s ease-in-out;
+  width: 17rem;
+  padding: 1.2rem 0;
+  border-radius: 2.5rem;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0.5rem 1.5rem;
 }
 
 .social ul {
   display: flex;
   justify-content: flex-end;
   text-align: center;
-  margin: 30px 30px 20px 0;
+  margin: 3rem 3rem 2rem 0;
 }
 
 .social i {
-  margin: 10px;
-  width: 38px;
-  padding: 10px;
+  margin: 1rem;
+  width: 3.8rem;
+  padding: 1rem;
   color: #fff;
   border: 1px solid #fff;
   border-radius: 50%;
 }
 
-.social i:hover {
-  border: 1px solid var(--hover-color);
-  color: var(--hover-color);
-  transition: 0.3s ease-in-out;
+/* Hover effect */
+
+@media (hover: hover) {
+  .infos a:hover {
+    color: var(--hover-color);
+    transition: 0.3s ease-in-out;
+  }
+
+  .social i:hover {
+    border: 1px solid var(--hover-color);
+    color: var(--hover-color);
+    transition: 0.3s ease-in-out;
+  }
 }
+
+/* Responsive */
 
 @media (max-width: 768px) {
   .header .logo {
-    width: 200px;
-    margin: 40px 0 50px 50px;
+    width: 20rem;
+    margin: 4rem 0 5rem 5rem;
   }
 
   .main {
@@ -96,7 +103,7 @@ body {
   }
 
   .main .illustration {
-    width: 300px;
+    width: 30rem;
     margin: 0 auto;
   }
 
@@ -118,6 +125,6 @@ body {
     display: flex;
     justify-content: center;
     align-self: center;
-    margin: 0 0 50px 0;
+    margin: 0 0 5rem 0;
   }
 }
