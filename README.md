@@ -6,11 +6,11 @@ Primeira quest feita durante o curso DevQuest, dos irmãos Ricardo e Roberto (<a
 
 ### Desktop
 
-<img src="design-desktop.jpg" alt="Screenshot do projeto desktop" width="700"/>
+<img src="src/screenshots/design-desktop.jpg" alt="Screenshot do projeto desktop" width="700"/>
 
 ### Mobile
 
-<img src="gif-design-mobile.gif" alt="Screenshot do projeto mobile" height="400"/>
+<img src="src/screenshots/gif-design-mobile.gif" alt="Screenshot do projeto mobile" height="400"/>
 
 ## Tecnologias utilizadas
 
@@ -18,13 +18,16 @@ Primeira quest feita durante o curso DevQuest, dos irmãos Ricardo e Roberto (<a
 - CSS
 
 ## Desafios
+
 O maior desafio foi a utilização do Grid, que ainda é um assunto novo pra mim.
 
 ## Coisas que aprendi
+
 - Posicionar elementos utilizando grid e flexbox;
 - Trabalhar com variáveis no CSS;
 - Fazer um site responsivo.
 
 ## Futuro do projeto
+
 - Melhorar a semântica do HTML;
 - Refatorar o código.
