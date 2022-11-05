@@ -6,11 +6,11 @@ Primeira quest feita durante o curso DevQuest, dos irmãos Ricardo e Roberto (<a
 
 ### Desktop
 
-<img src="src/screenshots/design-desktop.jpg" alt="Screenshot do projeto desktop" width="700"/>
+<img src="src/screenshots/design-desktop.jpg" alt="Screenshot do projeto desktop" width="650"/>
 
 ### Mobile
 
-<img src="src/screenshots/design-mobile.jpg" alt="Screenshot do projeto mobile" height="400"/>
+<img src="src/screenshots/design-mobile.jpg" alt="Screenshot do projeto mobile" height="450"/>
 
 ## Tecnologias utilizadas
 
