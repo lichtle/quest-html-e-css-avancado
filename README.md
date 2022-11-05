@@ -10,7 +10,7 @@ Primeira quest feita durante o curso DevQuest, dos irmãos Ricardo e Roberto (<a
 
 ### Mobile
 
-<img src="src/screenshots/gif-design-mobile.gif" alt="Screenshot do projeto mobile" height="400"/>
+<img src="src/screenshots/design-mobile.jpg" alt="Screenshot do projeto mobile" height="400"/>
 
 ## Tecnologias utilizadas
 
